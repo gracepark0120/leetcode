@@ -42,6 +42,7 @@ The 2nd customer is the richest with a wealth of 10.</pre>
 	<li><code>1 &lt;= accounts[i][j] &lt;= 100</code></li>
 </ul>
 
+
 ###회고
 이 문제는 map 같은 generator 를 사용해서 메모리를 줄이는 게 관건
 
