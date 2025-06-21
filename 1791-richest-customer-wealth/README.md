@@ -43,14 +43,14 @@ The 2nd customer is the richest with a wealth of 10.</pre>
 </ul>
 
 
-###회고
+### 회고
 이 문제는 map 같은 generator 를 사용해서 메모리를 줄이는 게 관건
 
-map(function, iterable)
+#### map(function, iterable)
 - function: 각 요소에 적용할 함수
 - iterable: 리스트, 튜플, 문자열 등 반복 가능한 것
 
 결과는 map 객체 → 메모리를 아끼기 위한 lazy evaluation (generator 비슷)
 
-####lazy 평가란?
+#### lazy 평가란?
 값을 바로 계산하지 않고, 요청이 있을 때 계산하는 방식. 전부 메모리에 저장하지 않음.
